@@ -1,0 +1,151 @@
+
+  
+  .film-box {
+    position: relative; /* Add position relative */
+    background-color: rgba(0, 0, 0, 0.8); /* 50% opacity */
+    width: 80%;
+    padding: 200px;
+    height:  500px;
+    margin: 0 auto;
+    overflow-y:auto;
+    
+  }
+  
+  .containerrrr {
+      display: inline-block;
+  }
+  
+  .left-image {
+      width: 450px; /* Adjust the width as needed */
+      margin-left: -100px; /* Adjust the margin as needed */
+  }
+  
+  
+  .film-box p {
+    color: white;
+    z-index: 1;
+    
+  }
+  
+  .film-box h3 {
+    color: white;
+    position: absolute; /* Add position relative */
+    z-index: 1;
+    top: 50px; /* Place it at the top */
+    left: 100px; /* Place it at the left */
+    font-weight: bold; /* Make text bold */
+    font-size: 2.6em; /* Enlarge the text size */
+  
+    
+  }
+  
+  
+  .film-box p {
+    color: white;
+    position: relative; /* Add position relative */
+    z-index: 1;
+    top: -260px; /* Place it at the top */
+    left: 380px; /* Place it at the left */
+    font-size: 1.3em; 
+    width: 70%;
+  }
+  
+
+
+     /* Custom styling for the header */
+ .custom-header {
+    background-color: #0c6b51; /* Dark green color */
+    color: #FFFFFF; /* White text color */
+    padding: 1px 0; /* Padding top and bottom */
+  }
+
+  .logo {
+    max-width: 90px; /* Adjust as needed */
+    height: auto;
+  }
+  /* Nav Bar */  
+        /* Custom CSS for Navbar */
+        .navbar {
+          background-color: #000;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+          color: #fff;
+        }
+
+        .navbar-nav .nav-item .nav-link.active,
+        .navbar-nav .nav-item .nav-link:focus {
+         background-color: #d0c607;
+         color: #000 !important;
+        }
+        .dropdown-menu > .dropdown-submenu:hover > .dropdown-menu {
+          display: block;
+          margin-left: 100%;
+          margin-top: -200px;
+          height: 240px; /* Adjust height as needed */ 
+          overflow-y: auto; /* Enable vertical scrolling */
+        }
+        .dropdown-menu .sub-divider {
+          border-right: 1px solid #aaa;
+        }   
+        
+        .navbar-nav .nav-link {
+          color: #ffffff !important; /* White text color */
+        }
+    
+        .navbar-nav .dropdown-menu {
+          background-color: #1f1d1d; /* Black background for dropdown */
+          border: none; /* Remove border */
+        }   
+        .navbar-nav .dropdown-item {
+          color: #ffffff !important; /* White text color for dropdown items */
+        }   
+        .navbar-nav .dropdown-item:hover {
+          background-color: #d0c607;
+          color: #000000 !important; /* Black text color on hover */
+        }
+  
+         /*Section */
+  .sectional {
+    background-image: url("https://th.bing.com/th/id/R.7ffca240791798d4b934ca98b286206a?rik=jDi6ChvgWuROmA&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f02%2f41%2f66%2f11_full.jpg&ehk=Sx7Ly6m0ApQHtRqjyd2WLqSj2QKWZ2H1tuzc1uLrulU%3d&risl=&pid=ImgRaw&r=0");
+    
+  } 
+  
+  .sectional {
+    position: relative;
+    width: 100%;
+    height: 650px; /* Adjust height as needed */
+    background-image: url('https://th.bing.com/th/id/R.7ffca240791798d4b934ca98b286206a?rik=jDi6ChvgWuROmA&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f02%2f41%2f66%2f11_full.jpg&ehk=Sx7Ly6m0ApQHtRqjyd2WLqSj2QKWZ2H1tuzc1uLrulU%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  .sectional{
+    position:relative;
+  
+    width: 100%;
+    height: 650px;
+    background-image: url('https://th.bing.com/th/id/R.7ffca240791798d4b934ca98b286206a?rik=jDi6ChvgWuROmA&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f02%2f41%2f66%2f11_full.jpg&ehk=Sx7Ly6m0ApQHtRqjyd2WLqSj2QKWZ2H1tuzc1uLrulU%3d&risl=&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-position: center;  
+}
+.sectional::before {
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+}
+      
+  /* footer */
+  .footer {
+    background-color: #d0c607;
+    color: rgb(4, 4, 4);
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
